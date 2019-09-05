@@ -10,11 +10,11 @@
 	<script language="javascript" src="_js/funcoes.js"></script>
 </head>
 <body>
-	<div class="navbar navbar-nav">
-		<div class="container">
-			<li class="ml-6"><a  href="#">LISTA DE EMPRESAS</a></li>
+	<div class="navbar navbar-nav fixed-top">
+		<div class="container-fluid">
+			<li class="navbar-brand"><a href="index.html">LISTA DE EMPRESAS</a></li>
 			<li class="mr-6">
-				<a  href="#">COMO FUNCIONA?</a>
+				<i class="icon fa-file-excel-o" style="color: white"></i><a href="#">COMO FUNCIONA?</a>
 				<a  href="#">AMOSTRA</a>
 			</li>
 		</div>
@@ -26,8 +26,8 @@
 		<h2>FILTROS</h2>
 		<div class="row" id="segmentos">
 			<div class="col-md-12">
-				<h4 class="mb-4">SEGMENTO</h4>
-				<h4 class="mb-3"><strong>RAMO DE ATIVIDADE:</strong></h4>
+				<h4 class="mb-4"><strong>SEGMENTO</strong></h4>
+				<h4 class="mb-3"><strong id="ramo">RAMO DE ATIVIDADE:</strong></h4>
 				<p class="mb-2">Defina a(s) área(s) de mercado em que as Empresas que deseja na sua Lista atuam. <strong style="font-style: italic;">Pule essa etapa para criar a Lista com todos os Ramos de Atividade.</strong></p>
 
 				<input class="form-control" type="search" name="" tabindex="-1" placeholder="Escolha o(s) Ramo(s) de Atividade(s)">
@@ -42,14 +42,14 @@
 		<div class="row">
 			<div class="col-md-6 mb-4" id="estado">
 				<h4><strong>ESTADO(UF):</strong></h4>
-				<p>Defina o Estado (UF) das Empresas que deseja na sua Lista. <strong style="font-style: italic;	">Pule essa etapa para criar uma Lista com todos os Estados.</strong></p>
+				<p>Defina o Estado (UF) das Empresas que deseja na sua Lista. <strong style="font-style: italic;">Pule essa etapa para criar uma Lista com todos os Estados.</strong></p>
 				<input class="form-control" type="search" name="" tabindex="-1" placeholder="Escolha o(s) Estado(s)">
 				
 			</div>
 			<div class="col-md-6" id="cidade">
 				<h4><strong>CIDADE:</strong></h4>
-				<p>Defina a Cidade das Empresas que deseja na sua Lista. <strong style="font-style: italic;">Pule essa etapa para criar uma Lista com todas as Cidades.</strong></p></br>
-				<input class="form-control" type="search" name="" tabindex="-1" placeholder="Escolha a(s) Cidade(s)">
+				<p>Defina a Cidade das Empresas que deseja na sua Lista. <strong style="font-style: italic;">Pule essa etapa para criar uma Lista com todas as Cidades.</strong></p>
+				<input class="form-control footer" type="search" name="" tabindex="-1" placeholder="Escolha a(s) Cidade(s)">
 			</div>
 		</div>
 	</div>
@@ -60,9 +60,21 @@
 				<h4> QUANTIDADE DE EMPRESAS:</h4>
 				<p>Defina a quantidade de Empresas que deseja na sua Lista.</p>
 				<select class="container-fluid">
-					<option>Text1</option>
-					<option>Text1</option>
-					<option>Text1</option>
+					<option value='8000'>Quantidade de Empresas</option>
+					<option value='1000'>Até 1.000 empresas = R$23,00</option>
+					<option value='2000'>Até 2.000 empresas = R$35,00</option>
+					<option value='4000'>Até 4.000 empresas = R$48,00</option>
+					<option value='8000'>Até 8.000 empresas = R$60,00</option>
+					<option value='12000'>Até 12.000 empresas = R$73,00</option>
+					<option value='16000'>Até 16.000 empresas = R$92,00</option>
+					<option value='20000'>Até 20.000 empresas = R$110,00</option>
+					<option value='30000'>Até 30.000 empresas = R$127,00</option>
+					<option value='40000'>Até 40.000 empresas = R$143,00</option>
+					<option value='50000'>Até 50.000 empresas = R$159,00</option>
+					<option value='100000'>Até 100.000 empresas = R$188,00</option>
+					<option value='200000'>Até 200.000 empresas = R$253,00</option>
+					<option value='350000'>Até 350.000 empresas = R$299,00</option>
+					<option value='500000'>Até 500.000 empresas = R$385,00</option>
 				</select>
 			</div>
 		</div>
@@ -73,15 +85,11 @@
 			<div class="col-md-12">
 				<h4>TODAS AS EMPRESAS DEVEM POSSUIR:</h4>
 				<p>Defina a quantidade de Empresas que deseja na sua Lista.</p>
-				<div class="control-label container-fluid input-group-text" id="check">
-				<input type="checkbox" aria-label="Checkbox for following text input">
-				<p class="ml-2 mr-5">E-mail Cadastrado</p>
-				<input type="checkbox" aria-label="Checkbox for following text input">
-				<p class="ml-2 mr-5">Endereço Cadastrado</p>
-				<input type="checkbox" aria-label="Checkbox for following text input">
-				<p class="ml-2 mr-5">Telefone Cadastrado</p>
-				</div>
-				
+
+				<label><input type="checkbox" aria-label="Checkbox for following text input">E-mail Cadastrado</label>
+				<label><input type="checkbox" aria-label="Checkbox for following text input">Endereço Cadastrado</label>
+				<label><input type="checkbox" aria-label="Checkbox for following text input"> Telefone Cadastrado</label>
+
 			</div>
 		</div>
 	</div>
@@ -98,11 +106,12 @@
 
 	<input id="criarlista" type="" name="" value="Criar Lista">
 	<div class="alert alert-info" role="alert">
-		<i class="fa fa-check-circle" aria-hidden="true"></i>
+		<i class="fa-check-info" aria-hidden="true"></i>
 		<p><strong>Orçamento Personalizado:</strong> Precisa de uma Lista com critérios diferentes?</br>
-<a href="#">Clique aqui</a> para falar com um consultor online ou <a href="#">Solicite um orçamento personalizado</a></p>
+		<a href="#">Clique aqui</a> para falar com um consultor online ou <a href="#">Solicite um orçamento personalizado</a></p>
 	</div>
 </div>
+
 	<footer>
 		<a href="#"><img src="_imagens/comments.png"></a>
 		<a href="#"><img src="_imagens/message2.png"></a>

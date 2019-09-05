@@ -3,9 +3,7 @@
 	color: white;
 	width: 100%;
 	top: 0;
-	height: 3.5em;
 	left: 0;
-	line-height: 3em;
 }
 .navbar div li{
 	display: inline-block;
@@ -15,6 +13,21 @@
     text-decoration: none;
     margin:0;
     padding: 0;
+}
+.navbar li.mr-6 a{
+    color: #fff;
+    font-size: .8em;
+    letter-spacing: .225em;
+    padding: 0 1.5em;
+    text-transform: uppercase;
+}
+.navbar .navbar-brand a{
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: .225em;
+    line-height: inherit;
+    font-size: 13pt;
+    text-decoration: none;
 }
 
 div#allpage{
@@ -30,12 +43,24 @@ div#allpage{
 }
 /*SEGMENTOS*/
 div#filtro{
+	padding-top: 50px;
 	width: 100%;
+
 }
 div#filtro h2{
    font-style: italic;
    color: #e16a5a;
    text-decoration: underline;
+   font-size: 1.35em;
+    line-height: 1.75em;
+    font-weight: 700;
+    letter-spacing: .225em;
+
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top: 40px;
 }
 div#filtro div#segmentos{
     padding: 25px;
@@ -57,8 +82,10 @@ div#segmentos h4{
 }
 div#segmentos h4 strong{
 	font-weight: 600;
+}
+div#segmentos h4 strong#ramo{
+	font-weight: 600;
     color: rgb(225, 106, 90);
-        color: #2e3842;
 }
 div#segmentos input{
 	border:solid 1px rgba(0,0,0,.5);
@@ -110,6 +137,18 @@ div#quantidade{
     background: #f7f7f7;
     border-top: 1px solid #e5e5e5;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.33);
+
+}
+div#quantidade select{
+	height: 2.75em;
+	font-family: open sans,Helvetica,sans-serif;
+    border-radius: 1px;
+    color: inherit;
+    display: block;
+    outline: 0;
+    padding: 0 1em;
+    text-decoration: none;
+    width: 100%;
 }
 div#quantidade h4{
 	color: rgb(225, 106, 90);
@@ -162,6 +201,20 @@ div#email{
     border-top: 1px solid #e5e5e5;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.33);
 }
+div#email input{
+	background: #fcfcfc;
+    border-style: groove;
+    height: 2.75em;
+    border-radius: 1px;
+    color: inherit;
+    display: block;
+    outline: 0;
+    padding: 0 1em;
+    text-decoration: none;
+    width: 100%
+    letter-spacing: .075em;
+    font-family: open sans,Helvetica,sans-serif;
+}
 div#email h4{
 	color: rgb(225, 106, 90);
 	font-weight: 600;
@@ -201,6 +254,25 @@ div#allpage input#criarlista{
     margin-top: 50px;
     margin-bottom: 40px;
 }
+
+
+
+div#todas label{
+	display: inline-block;
+    margin: 0 0 1em;
+    padding-right:25px;
+}
+div#todas label input{
+	text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 400;
+    padding-left: 2.4em;
+    padding-right: .75em;
+    position: relative;
+}
 /*article*/
 .alert{	
     margin-bottom: 20px;
@@ -227,7 +299,19 @@ div#allpage input#criarlista{
 /*--------------footer--------*/
 footer{
 	height: 60%;
-	background-color: rgba(29,36,42,.9);
-	text-align: center;
 	padding: 6em 0 4em;
+    background-color: #1d242a;
+    text-align: center;
+    color: rgba(255,255,255,.5);
+    font-size: .8em;
+    letter-spacing: .225em;
+    list-style: none;
+    text-transform: uppercase;
 }
+footer p{
+	margin-top: 40px;
+}
+footer a img{
+	margin-right: 20px;
+}
+
