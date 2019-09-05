@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<title>Lista de Empresas</title>
+	<link rel="stylesheet" href="_bootstrap/node_modules/bootstrap/compiler/style.css">
+	<link rel="stylesheet" href="_bootstrap/node_modules/bootstrap/compiler/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="_css/criarlista.css">
+	<script language="javascript" src="_js/funcoes.js"></script>
+</head>
+<body>
+	<div class="navbar navbar-nav">
+		<div class="container">
+			<li class="ml-6"><a  href="#">LISTA DE EMPRESAS</a></li>
+			<li class="mr-6">
+				<a  href="#">COMO FUNCIONA?</a>
+				<a  href="#">AMOSTRA</a>
+			</li>
+		</div>
+	</div>
+
+<div class="container" id="allpage">
+
+	<div class="container" id="filtro">
+		<h2>FILTROS</h2>
+		<div class="row" id="segmentos">
+			<div class="col-md-12">
+				<h4 class="mb-4">SEGMENTO</h4>
+				<h4 class="mb-3"><strong>RAMO DE ATIVIDADE:</strong></h4>
+				<p class="mb-2">Defina a(s) área(s) de mercado em que as Empresas que deseja na sua Lista atuam. <strong style="font-style: italic;">Pule essa etapa para criar a Lista com todos os Ramos de Atividade.</strong></p>
+
+				<input class="form-control" type="search" name="" tabindex="-1" placeholder="Escolha o(s) Ramo(s) de Atividade(s)">
+				
+				<a href="#" id="cnae"><span class="fa fa-info-circle"></span> Consultar Ramo de Atividade (Cnae)</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="container" id="localizacao">
+		<h4>LOCALIZAÇÂO</h4>
+		<div class="row">
+			<div class="col-md-6 mb-4" id="estado">
+				<h4><strong>ESTADO(UF):</strong></h4>
+				<p>Defina o Estado (UF) das Empresas que deseja na sua Lista. <strong style="font-style: italic;	">Pule essa etapa para criar uma Lista com todos os Estados.</strong></p>
+				<input class="form-control" type="search" name="" tabindex="-1" placeholder="Escolha o(s) Estado(s)">
+				
+			</div>
+			<div class="col-md-6" id="cidade">
+				<h4><strong>CIDADE:</strong></h4>
+				<p>Defina a Cidade das Empresas que deseja na sua Lista. <strong style="font-style: italic;">Pule essa etapa para criar uma Lista com todas as Cidades.</strong></p></br>
+				<input class="form-control" type="search" name="" tabindex="-1" placeholder="Escolha a(s) Cidade(s)">
+			</div>
+		</div>
+	</div>
+
+	<div class="container" id="quantidade">
+		<div class="row">
+			<div class="col-md-12">
+				<h4> QUANTIDADE DE EMPRESAS:</h4>
+				<p>Defina a quantidade de Empresas que deseja na sua Lista.</p>
+				<select class="container-fluid">
+					<option>Text1</option>
+					<option>Text1</option>
+					<option>Text1</option>
+				</select>
+			</div>
+		</div>
+	</div>
+
+	<div class="container" id="todas">
+		<div class="row">
+			<div class="col-md-12">
+				<h4>TODAS AS EMPRESAS DEVEM POSSUIR:</h4>
+				<p>Defina a quantidade de Empresas que deseja na sua Lista.</p>
+				<div class="control-label container-fluid input-group-text" id="check">
+				<input type="checkbox" aria-label="Checkbox for following text input">
+				<p class="ml-2 mr-5">E-mail Cadastrado</p>
+				<input type="checkbox" aria-label="Checkbox for following text input">
+				<p class="ml-2 mr-5">Endereço Cadastrado</p>
+				<input type="checkbox" aria-label="Checkbox for following text input">
+				<p class="ml-2 mr-5">Telefone Cadastrado</p>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="container" id="email">
+		<div class="row">
+			<div class="col-md-12">
+				<h4>EMAIL:</h4>
+				<p>Preencha o E-mail que vamos utilizar para enviar a Lista, após confirmação do pagamento.</p>
+				<input class="form-control" type="search" name="" tabindex="-1" placeholder="Digite seu Email">
+			</div>
+		</div>
+	</div>	
+
+	<input id="criarlista" type="" name="" value="Criar Lista">
+	<div class="alert alert-info" role="alert">
+		<i class="fa fa-check-circle" aria-hidden="true"></i>
+		<p><strong>Orçamento Personalizado:</strong> Precisa de uma Lista com critérios diferentes?</br>
+<a href="#">Clique aqui</a> para falar com um consultor online ou <a href="#">Solicite um orçamento personalizado</a></p>
+	</div>
+</div>
+	<footer>
+		<a href="#"><img src="_imagens/comments.png"></a>
+		<a href="#"><img src="_imagens/message2.png"></a>
+		<p>&copy; 2016-2019 | LISTA DE EMPRESAS </p>
+	</footer>
+
+
+	<script src="_bootstrap/node_modules/jquery/dist/jquery.js"></script>
+	<script src="_bootstrap/node_modules/popper.js/dist/umd/popper.js"></script>
+	<script src="_bootstrap/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>

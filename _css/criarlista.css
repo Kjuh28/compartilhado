@@ -1,0 +1,233 @@
+.navbar{
+	background: #2e3842;
+	color: white;
+	width: 100%;
+	top: 0;
+	height: 3.5em;
+	left: 0;
+	line-height: 3em;
+}
+.navbar div li{
+	display: inline-block;
+    height: inherit;
+    line-height: inherit;
+    color: #000;
+    text-decoration: none;
+    margin:0;
+    padding: 0;
+}
+
+div#allpage{
+	width: 80%;
+   	color: #000;
+    font-family: open sans,Helvetica,sans-serif;
+    font-size: 15pt;
+    font-weight: 400;
+    letter-spacing: .075em;
+    line-height: 1.65em;
+    font: inherit;
+    color: #4e4852;
+}
+/*SEGMENTOS*/
+div#filtro{
+	width: 100%;
+}
+div#filtro h2{
+   font-style: italic;
+   color: #e16a5a;
+   text-decoration: underline;
+}
+div#filtro div#segmentos{
+    padding: 25px;
+    margin-bottom: 20px;
+    background: #f7f7f7;
+    border-top: 1px solid #e5e5e5;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.33);
+}
+div#segmentos h4{
+	color: #2e3842;
+	font-weight: 600;
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    padding-top: 
+}
+div#segmentos h4 strong{
+	font-weight: 600;
+    color: rgb(225, 106, 90);
+        color: #2e3842;
+}
+div#segmentos input{
+	border:solid 1px rgba(0,0,0,.5);
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+div#segmentos a#cnae{
+	    color: #4e4852;
+	text-decoration: none;
+	font-size: 14px;
+    border-bottom: dotted 1px;
+}
+
+/*LOCALIZÃÇÃO*/
+
+div#localizacao{
+    padding: 25px;
+    margin-bottom: 20px;
+    background: #f7f7f7;
+    border-top: 1px solid #e5e5e5;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.33);
+
+}
+div#localizacao h4{
+	color: #2e3842;
+	font-weight: 600;
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    padding-top: 
+}
+
+div#cidade h4 strong{
+    color: rgb(225, 106, 90);
+    font-weight: 600;
+}
+div#estado h4 strong{
+    color: rgb(225, 106, 90);
+    font-weight: 600;
+}
+/*-------QUANTIDADE-------*/
+
+div#quantidade{
+    padding: 25px;
+    margin-bottom: 20px;
+    background: #f7f7f7;
+    border-top: 1px solid #e5e5e5;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.33);
+}
+div#quantidade h4{
+	color: rgb(225, 106, 90);
+	font-weight: 600;
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+   	display: block; 
+
+}
+
+/*------------------todas---------*/
+
+div#todas{
+    padding: 25px;
+    margin-bottom: 20px;
+    background: #f7f7f7;
+    border-top: 1px solid #e5e5e5;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.33);
+}
+div#todas h4{
+	color: rgb(225, 106, 90);
+	font-weight: 600;
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+   	display: block; 
+}
+
+div#todas .input-group-text{
+	background: transparent;
+	border: none;
+}
+div#todas input{
+
+}
+
+/*------------email----------*/
+
+div#email{
+    padding: 25px;
+    margin-bottom: 20px;
+    background: #f7f7f7;
+    border-top: 1px solid #e5e5e5;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.33);
+}
+div#email h4{
+	color: rgb(225, 106, 90);
+	font-weight: 600;
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+   	display: block; 
+}
+
+/*-----------botão------------*/
+div#allpage input#criarlista{
+	display: block;
+	margin: auto;
+    background-color: #e16a5a;
+    box-shadow: none!important;
+    color: #fff!important;
+	transition: background-color .2s ease-in-out,color .2s ease-in-out;
+    border-radius: 3px;
+    border: 0;
+    box-shadow: inset 0 0 0 2px #fff;
+    color: #fff;
+    cursor: pointer;
+    font-size: .8em;
+    font-weight: 700;
+    letter-spacing: .225em;
+    line-height: 3.125em;
+    padding: 0 2.75em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+/*article*/
+.alert{	
+    margin-bottom: 20px;
+    border-radius: 4px;
+	color: #31708f;
+	font-size: 13pt;
+}
+.alert p strong{
+	font-weight: 600;
+	color:#2e3842;
+}
+.alert p strong::before{
+	content:"\f058";
+}
+.alert a{
+	border-bottom:1px dotted;
+	text-decoration: none;
+	color:inherit;
+}
+.alert a:hover{
+	border-bottom: none;
+}
+
+/*--------------footer--------*/
+footer{
+	height: 60%;
+	background-color: rgba(29,36,42,.9);
+	text-align: center;
+	padding: 6em 0 4em;
+}

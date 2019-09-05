@@ -6,6 +6,393 @@ html, body{
 	margin: 0px;
 	background-color: rgba(0, 0, 0, 0.767);
 	overflow-x: hidden;
-	font-family: Verdana, Geneva, Tahoma, sans-serif
+	font-family: sans-serif
+	font:inherit;
 }
 /*-------------------------body--------------------*/
+h2{
+	padding-top: 50px;
+	color:#000;
+	font-size: 1.35em;
+	font-weight: 800;
+	letter-spacing: .225em;
+	padding-bottom: 1em;
+}
+
+hr{
+	background: #ddd;
+	height: 1.2px;
+	width: 32%;
+}
+li{
+	list-style: none;
+	color: white;
+}
+div#chatlado{
+	left: 90vw;
+	bottom: 10vw;
+	display: block;
+	width: 100%;
+	position: fixed;
+ 	float: right;
+ 	text-align: right;
+}
+
+a#chat{
+	margin: 0px;
+	text-align: right;
+	position: fixed;
+	display: block;
+}
+/*---------------- Conteudo Home - Primeira Div---------------------*/
+
+div#home{
+	background-image: url("../_imagens/predios.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	text-align: center;
+/*	line-height: 32px;*/
+}
+div#conteudoHome{
+	letter-spacing: .225em;	
+	min-height: 35em;
+	padding-top: 100px;
+	text-align: center;
+	width: 60%;
+	color: white;
+}
+div#conteudoHome div#primeiraescrita h2{
+	line-height: 1.75em;
+	margin: 0 0 1em;
+	font-weight: 800;
+	font-size: 1.75em;
+	padding-top: 0px;
+	padding-bottom: 0px;
+/*	    padding: .35em 1em;*/
+}
+/*div#conteudoHome h2{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	letter-spacing: 6px;
+	font-size: 25pt;
+}*/
+
+div#conteudoHome a#criarlista{
+
+    background-color: #e16a5a;
+    box-shadow: none!important;
+    color: #fff!important;
+	transition: background-color .2s ease-in-out,color .2s ease-in-out;
+    border-radius: 3px;
+    border: 0;
+    box-shadow: inset 0 0 0 2px #fff;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: .8em;
+    font-weight: 700;
+    letter-spacing: .225em;
+    line-height: 3.125em;
+    padding: 0 2.75em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 50px;
+
+}
+div#conteudoHome h2{
+	color: white;
+}
+div#conteudoHome hr{
+	margin-top: 0px;
+	height: 2px;
+	background-color: white;
+	width: 100%;
+}
+
+div#conteudoHome li a:hover{
+	text-decoration: none;
+	color: white;
+}
+div#conteudoHome{
+	padding-bottom: 50px;
+}
+div#conteudoHome li#saibamais{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-decoration: none;
+}
+div#conteudoHome li#saibamais a{
+	color: white;
+}
+div#conteudoHome img{
+	padding-top: 20px;
+}
+
+/*Conteudo O que fazemos - segunda div*/
+
+div#oqfazemos{
+	background:#fcfcfc;
+	text-align: center;
+	font-size: 100%;
+	display: block;
+}
+div#oqfazemos h1{
+	display: block;
+}
+div#oqfazemos p strong{
+	color: #e16a5a;
+	font-weight: 600;
+}
+div#oqfazemos p{
+	display: block;
+	margin: 0 0 2em;
+	letter-spacing: .075em;
+}
+div#oqfazemos button{
+	border-radius: 3px;
+	letter-spacing: 2px;
+	font-size: .8em;
+	font-weight: 600;
+	padding: 0 2.75em;
+	height: 3.125em;
+	background:#e16a5a;
+	color: white;
+	margin-bottom: 60px;
+}
+div#containerblock{
+	width: 85%;
+}
+
+/*----------------------- div Por que adquirir ------------------------*/
+div#porqueadquirir{
+	padding-top: 20px;
+	background-color: #f5f5f5;
+	text-align: center;
+
+	letter-spacing: .075em;
+	font: inherit;
+	font-size: 100%;
+}
+div#porqueadquirir p{
+	padding-bottom: 50px;
+}
+div#cards{
+	text-align:center;
+	display: block;
+	left: 1.75em;
+	top: 2.75em;
+	font: inherit;
+	vertical-align: baseline;
+	letter-spacing: .075em;
+
+	width: 85vw;
+	margin: auto;
+	padding-bottom: 50px;
+	text-align: left;
+}
+div#cards h3{
+	display: block;
+	font-size: 1.15em;
+    line-height: 1.75em;
+    font-weight: 800;
+    letter-spacing: .225em;
+}
+
+
+div#card1{
+	background-color: rgba(0,0,0,.035);
+	padding: 4em 4em 2em 6em;
+    display: block;
+    position: relative;
+    text-align: left;	
+}
+div#card1 h3::before{
+	content: url("../_imagens/file.png");
+	margin-left: -55px;
+	margin-right: 25px;
+}
+
+div#card2{
+	background-color: rgba(0,0,0,.07);
+	padding: 4em 4em 2em 6em;
+    display: block;
+    position: relative;
+    text-align: left;
+}
+div#card2 h3::before{
+	content: url("../_imagens/search.png");
+	margin-left: -55px;
+	margin-right: 25px;
+}
+
+div#card3{
+	background-color: rgba(0,0,0,.105);
+	padding: 4em 4em 2em 6em;
+    display: block;
+    position: relative;
+    text-align: left;
+    width: 100%;
+}
+div#card3 h3::before{
+	content: url("../_imagens/list.png");
+	margin-left: -55px;
+	margin-right: 25px;
+}
+
+div#card4{
+	background-color: rgba(0,0,0,.14);
+	padding: 4em 4em 2em 6em;
+    display: block;
+    position: relative;
+    text-align: left;
+    width: 50%;
+    text-align: left;
+    width: 100%;
+}
+div#card4 h3::before{
+	content: url("../_imagens/padlock.png");
+	margin-left: -55px;
+	margin-right: 25px;
+}
+
+div#card5{
+	background-color: rgba(0,0,0,.175);
+	padding: 4em 4em 2em 6em;
+    display: block;
+    position:relative;
+    text-align: left;
+    width: 100%;
+}
+div#card5 h3::before{
+	content: url("../_imagens/signal-bars.png");
+	margin-left: -55px;
+	margin-right: 25px;
+}
+
+div#card6{
+	background-color: rgba(0,0,0,.21);
+	padding: 4em 4em 2em 6em;
+    display: block;
+    position: relative;
+    text-align: left;
+    width: 100%;
+}
+div#card6 h3::before{
+	content: url("../_imagens/diamond.png");
+	margin-left: -55px;
+	margin-right: 25px;
+}
+
+ /*-----------------------div faleconosco e footer ----------------------------*/
+
+section#faleConoscoSec{
+	background:url("../_imagens/predios.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: white;
+	height: 85%;
+	background-attachment: fixed;
+	position: relative;
+}
+div#faleConoscoDiv {
+	height: 40%;
+	text-align: center;
+	width: 60%;
+}
+div#faleConoscoDiv h2{
+	color: #fff;
+    font-weight: 800;
+    letter-spacing: .225em;
+    line-height: 1em;
+    margin: 0 0 1em;
+    text-align: left;
+}
+div#faleConoscoDiv button{
+background-color: rgba(144,144,144,.5);
+
+    transition: background-color .2s ease-in-out,color .2s ease-in-out;
+    background-color: transparent;
+    border-radius: 3px;
+    border: 0;
+    box-shadow: inset 0 0 0 2px #fff;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: .8em;
+    font-weight: 600;
+    height: 3.125em;
+    letter-spacing: .225em;
+    line-height: 3.125em;
+    padding: 0 2.75em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+div#faleConoscoDiv #faletexto{
+	width: 50%;
+	text-align: left;
+}
+div#faleConoscoDiv #falebotao{
+	width: 50%;
+	text-align: center;
+	margin: auto;
+	letter-spacing: .225em;
+}
+div#faleConoscoDiv #falebotao a{
+	
+}
+section#faleConoscoSec footer{
+	height: 60%;
+	background-color: rgba(29,36,42,.9);
+	text-align: center;
+	padding: 6em 0 4em;
+}
+section#faleConoscoSec footer p{
+
+}
+
+/*-------------------------@MEDIA-----------------*/
+
+@media (max-width: 576px) {
+
+div#card1{
+background-color: transparent ;	
+border-bottom: solid 1px #999;
+text-align: center;
+}	
+div#card1 h3::before{
+	content: url("../_imagens/file.png");
+	text-align: center;
+}
+div#card2{
+background-color: transparent ;	
+border-bottom: solid 1px #999;
+text-align: center;
+}
+div#card3{
+background-color: transparent ;	
+border-bottom: solid 1px #999;
+}
+div#card4{
+background-color: transparent ;	
+border-bottom: solid 1px #999;
+}
+div#card5{
+background-color: transparent ;	
+border-bottom: solid 1px #999;
+}
+div#card6{
+background-color: transparent ;	
+border-bottom: solid 1px #999;
+}
+}
