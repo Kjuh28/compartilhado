@@ -1,0 +1,207 @@
+.navbar{
+	background: #2e3842;
+	color: white;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+.navbar div li{
+	display: inline-block;
+    height: inherit;
+    line-height: inherit;
+    color: #000;
+    text-decoration: none;
+    margin:0;
+    padding: 0;
+}
+.navbar li.mr-6 a{
+    color: #fff;
+    font-size: .8em;
+    letter-spacing: .225em;
+    padding: 0 1.5em;
+    text-transform: uppercase;
+}
+.navbar .navbar-brand a{
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: .225em;
+    line-height: inherit;
+    font-size: 13pt;
+    text-decoration: none;
+}
+
+
+
+
+div#allpage{
+	width: 80%;
+   	color: #000;
+    font-family: open sans,Helvetica,sans-serif;
+    font-size: 15pt;
+    font-weight: 400;
+    letter-spacing: .075em;
+    line-height: 1.65em;
+    font: inherit;
+    color: #4e4852;
+    text-align: center;
+    padding-top: 80px;
+}
+div#allpage h1{
+    font-weight: 800;
+    letter-spacing: .225em;
+    line-height: 1.75em;
+    font-size: 1.15em;
+    margin: 0 0 1em;
+    text-transform: uppercase;
+}
+div#primeiradiv{
+	text-align: left;
+	padding: 25px;
+    margin-bottom: 20px;
+    background: #f7f7f7;
+    border-top: 1px solid #e5e5e5;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.33);
+
+    padding-bottom: 50px;
+}
+div#primeiradiv input{
+    font-size: .9em;
+    font-weight: 600;
+    margin: 0 0 1em;
+
+        font-size: 13pt;
+    background: #fcfcfc;
+    border-style: groove;
+        height: 2.75em;
+            border-radius: 1px;
+    color: inherit;
+    display: block;
+    outline: 0;
+    padding: 0 1em;
+    text-decoration: none;
+    width: 100%;
+        font-family: open sans,Helvetica,sans-serif;
+    font-weight: 400;
+    letter-spacing: .075em;
+    line-height: 1.65em;
+}
+div#primeiradiv p strong{
+	color: #2e3842;
+	font: inherit;
+	font-size: .9em;
+	font-weight: 600;
+}
+div#allpage p{
+	text-align: left;
+}
+div#allpage p#confira{
+	text-align: left;
+	color: #4e4852;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+div#allpage p#confira a{
+	text-decoration: none;
+	color:#4e4852;
+}
+div#amostra {
+	font-size: 13pt;
+	font-weight: 400;
+    letter-spacing: .075em;
+    line-height: 1.65em;
+
+    text-align: left;
+	padding: 25px;
+    margin-bottom: 20px;
+    background: #f7f7f7;
+    border-top: 1px solid #e5e5e5;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.33);
+
+    padding-bottom: 50px;
+}
+div#amostra p{
+		color: #2e3842;
+	font: inherit;
+	font-size: .9em;
+	font-weight: 600
+}
+div#amostra textarea{
+    background: #fcfcfc;
+    border-style: groove;
+    padding: .75em 1em;
+    border-radius: 1px;
+    padding-bottom: 50px;
+}
+
+div#quanto {
+	font-size: 13pt;
+	font-weight: 400;
+    letter-spacing: .075em;
+    line-height: 1.65em;
+
+    text-align: left;
+	padding: 25px;
+    margin-bottom: 20px;
+    background: #f7f7f7;
+    border-top: 1px solid #e5e5e5;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.33);
+
+    padding-bottom: 50px;
+}
+div#quanto p{
+		color: #2e3842;
+	font: inherit;
+	font-size: .9em;
+	font-weight: 600
+}
+div#quanto input{
+    font-size: .9em;
+    font-weight: 600;
+    margin: 0 0 1em;
+
+        font-size: 13pt;
+    background: #fcfcfc;
+    border-style: groove;
+        height: 2.75em;
+            border-radius: 1px;
+    color: inherit;
+    display: block;
+    outline: 0;
+    padding: 0 1em;
+    text-decoration: none;
+    width: 100%;
+        font-family: open sans,Helvetica,sans-serif;
+    font-weight: 400;
+    letter-spacing: .075em;
+    line-height: 1.65em;
+}
+div#allpage a button{
+		border-radius: 3px;
+	letter-spacing: 2px;
+	font-size: .8em;
+	font-weight: 600;
+	padding: 0 2.75em;
+	height: 3.125em;
+	background:#e16a5a;
+	color: white;
+	margin-bottom: 60px;
+}
+/*footer*/
+
+footer{
+	height: 60%;
+	padding: 6em 0 4em;
+    background-color: #1d242a;
+    text-align: center;
+    color: rgba(255,255,255,.5);
+    font-size: .8em;
+    letter-spacing: .225em;
+    list-style: none;
+    text-transform: uppercase;
+}
+footer p{
+	margin-top: 40px;
+}
+footer a img{
+	margin-right: 20px;
+}

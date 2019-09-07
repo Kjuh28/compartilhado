@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<title>Orçamento Personalizado</title>
+	<link rel="stylesheet" href="_bootstrap/node_modules/bootstrap/compiler/style.css">
+	<link rel="stylesheet" href="_bootstrap/node_modules/bootstrap/compiler/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="_css/orc_persona.css">
+	<link rel="stylesheet" type="text/css" href="_css/transition.css">
+	<script language="javascript" src="_js/funcoes.js"></script>
+
+</head>
+<body>
+	<div class="navbar navbar-nav fixed-top">
+		<div class="container-fluid">
+			<li class="navbar-brand"><a href="index.html">LISTA DE EMPRESAS</a></li>
+			<li class="mr-6">
+				<i class="icon fa-file-excel-o" style="color: white"></i><a href="criarLista.html">CRIAR LISTA</a>
+			</li>
+		</div>
+	</div>
+
+	<div id="allpage" class="container">
+		<div class="row container">
+			<div class="col-md-12">
+				<h1>Orçamento Personalizado</h1>
+				<hr>
+
+
+				<div class="container" id="primeiradiv">
+					<div class="row">
+						<div class="col-md-6">
+							<p><strong>Nome:</strong></p>
+							<input class="form-control" type="search" placeholder="Qual o seu nome?">			
+						</div>
+						<div class="col-md-6">
+							<p><strong>E-mail</strong></p>
+							<input class="form-control" type="search" placeholder="Preencha o seu E-mail">
+						</div>
+					</div>
+				</div>
+
+				<p id="confira">Confira uma amostra de como é a Lista em: <a href="#">Amostra de Lista</a></p>
+
+
+				<div class="container" id="amostra">
+					<div class="row">
+						<div class="col-md-12">
+							<p>Com base na amostra, descreva quais critérios deseja utilizar para criar sua Lista de Empresas personalizada:</p>
+							<textarea class="form-control"></textarea>
+						</div>
+						
+					</div>
+				</div>
+
+				<div class="container" id="quanto">
+					<div class="row">
+						<div class="col-md-12">
+							<p>Quanto é 2 + 3 = ?</p>
+							<input type="search" class="form-control" placeholder="Resposta">
+						</div>
+						
+					</div>
+				</div>				
+
+			</div>
+		</div>
+		<a href="criarLista.html"><button class="btn ">SOLICITAR ORÇAMENTO</button></a>
+		<p style="font-style: italic; text-align: center;">Um consultor irá entrar em contato o mais breve possível</p>
+	</div>
+	<footer>
+		<a href="#"><img src="_imagens/comments.png"></a>
+		<a href="#"><img src="_imagens/message2.png"></a>
+		<p>&copy; 2016-2019 | LISTA DE EMPRESAS </p>
+	</footer>
+
+	<script src="_bootstrap/node_modules/jquery/dist/jquery.js"></script>
+	<script src="_bootstrap/node_modules/popper.js/dist/umd/popper.js"></script>
+	<script src="_bootstrap/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
